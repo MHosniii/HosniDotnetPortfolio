@@ -6,7 +6,7 @@ namespace HosniPortfolio.WebApi.Models
 	{
         public int Id { get; set; }
         public string Title { get; set; }
-        public Subject Subject { get; set; }
+        public int SubjectId { get; set; }
         public string Description { get; set; }
         public string Source { get; set; }
         public DateTime CreationDate { get; set; }
